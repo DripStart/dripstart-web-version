@@ -1,0 +1,111 @@
+body {
+    background: url(/assets/background-gradient.gif) repeat-x top #c7f5ff;
+}
+
+#message {
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 11px;
+    background-color: #fff9d7;
+    border: 1px solid #e2c822;
+    color: #333333;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 20px;
+    width: 820px;
+    margin: 0 auto;
+}
+
+#game-container {
+    width: 1024px;
+    height: 768px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#flash-container, #unity-container {
+    position: absolute;
+}
+
+#flash-container {
+    display: none;
+}
+
+#gameDiv {
+    position: absolute;
+    left: 325px;
+    top: 256px;
+    border: solid 1px Gray;
+}
+
+#shellDiv {
+    position: relative;
+    text-align: left;
+    display: inline;
+}
+
+#container {
+    margin: auto;
+    position: relative;
+}
+
+#worldShell {
+    display: inline-block;
+    background-color: #000000;
+}
+
+#flash-content {
+}
+
+.noOutline {
+    outline: none;
+}
+
+#flash-ad {
+    position: absolute;
+}
+
+#unity-container {
+    width: 1024px;
+    height: 768px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#close-btn:link, #close-btn:visited {
+    background: url(/assets/close.png) no-repeat 0px 0px;
+    _background: url(../Default/Images/close.gif) no-repeat 0 0;
+    width: 34px;
+    height: 34px;
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: -15px;
+}
+
+.exit-to-home {
+    position: absolute;
+    top: 0;
+    left: -160px;
+    border: 0;
+}
+
+.recorder-close {
+    background: url(/assets/kv-close-btn.png) no-repeat !important;
+    top: 21px !important;
+    right: 7px !important;
+}
+
+.player-close {
+    background: url(/assets/kv-close-btn.png) no-repeat !important;
+    top: 42px !important;
+    right: 7px !important;
+}
+
+.loader {
+    background: url(/assets/loader.gif) no-repeat;
+    width: 32px;
+    height: 32px;
+}

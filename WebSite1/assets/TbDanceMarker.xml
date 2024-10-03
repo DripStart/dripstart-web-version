@@ -1,0 +1,85 @@
+<User>
+	<Name>Ritch Parker</Name>
+	<Alias>KAUser</Alias>
+	<Dates>
+		<Created>2009-02-14T02:41:23Z</Created>
+		<LastModified>2003-06-09T21:57:45Z</LastModified>
+		<LastLogin>2011-07-12T19:08:44Z</LastLogin>
+	</Dates>
+	<Company>Knowledge Adventure</Company>
+	<Version>12.00</Version>
+	<Score>
+		<Current>12450</Current>
+		<High>13470</High>
+		<Low>2700</Low>
+		<Target>330</Target>
+	</Score>
+	<Flags>
+		<Active>False</Active>
+		<Premium>False</Premium>
+	</Flags>
+	<Schema>
+		<ID>tsSoundMarker</ID>
+		<Fields>
+			<Field ID="tfPosition" Type="float">// in sec</Field>
+			<Field ID="tfTag" Type="string" />
+		</Fields>
+		<Tables>
+			<Table ID="tnMuxTurn">
+				<Props>
+					<Prop Name="Unlock">1</Prop>
+					<Prop Name="Online">include</Prop>
+					<Prop Name="Song">MusJSDance_Turn_It_Up</Prop>
+					<Prop Name="Display">Turn It Up</Prop>
+					<Prop Name="Level">Hard</Prop>
+					<Prop Name="ViewTime">3000</Prop>
+				</Props>
+				<Records>
+					<Record>
+						<Time>2.5</Time>
+						<Move>DanceHeadBang02</Move>
+					</Record>
+					<Record>
+						<Time>2.8</Time>
+						<Move>dn</Move>
+					</Record>
+					<Record>
+						<Time>4</Time>
+						<Move>dn</Move>
+					</Record>
+					<Record>
+						<Time>4.8</Time>
+						<Move>dn</Move>
+					</Record>
+					<!-- More records here -->
+				</Records>
+			</Table>
+			<Table ID="tnMuxWaitin">
+				<Props>
+					<Prop Name="Unlock">0</Prop>
+					<Prop Name="Online">include</Prop>
+					<Prop Name="Song">MusJSDance_What_You_Waitin_Fer</Prop>
+					<Prop Name="Display">What Are You Waiting For</Prop>
+					<Prop Name="Level">Hard</Prop>
+					<Prop Name="ViewTime">2428</Prop>
+				</Props>
+				<Records>
+					<Record>
+						<Time>2.5</Time>
+						<Move>rt</Move>
+					</Record>
+					<Record>
+						<Time>3.5</Time>
+						<Move>dn</Move>
+					</Record>
+					<Record>
+						<Time>4.7</Time>
+						<Move>DanceHillbilly</Move>
+					</Record>
+					<!-- More records here -->
+				</Records>
+			</Table>
+			<!-- More tables here -->
+		</Tables>
+	</Schema>
+</User>
